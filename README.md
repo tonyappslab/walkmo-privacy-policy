@@ -1,24 +1,46 @@
 # Walkmo Privacy Policy
 
-This repository contains the privacy policy for Walkmo.
+This repository contains the static privacy policy page for Walkmo.
 
-## View Online
+## Files
 
-The privacy policy is hosted on GitHub Pages: [https://tonyappslab.github.io/walkmo-privacy-policy/](https://tonyappslab.github.io/walkmo-privacy-policy/)
+- **index.html** - Main privacy policy page
+- **styles.css** - Styling for the privacy policy page
+- **README.md** - This file
 
-## Repository Contents
+## Setup
 
-- `index.md` - Main privacy policy document
-- `_config.yml` - Jekyll configuration file
+To view the privacy policy locally:
 
-## Local Development
+1. Clone this repository
+2. Open `index.html` in your web browser
 
-To serve this site locally:
+## Deployment
 
-```bash
-gem install bundler jekyll
-bundle install
-bundle exec jekyll serve
-```
+This page can be deployed to:
+- GitHub Pages
+- Static hosting services (Vercel, Netlify, etc.)
+- Any web server
 
-Then visit `http://localhost:4000` in your browser.
+### GitHub Pages Setup
+
+1. Go to repository Settings → Pages
+2. Select "Deploy from a branch"
+3. Choose the `main` branch
+4. Your privacy policy will be available at: `https://tonyappslab.github.io/walkmo-privacy-policy/`
+
+## Customization
+
+Edit the following sections in `index.html`:
+
+- Update the company contact information in the "Contact Us" section
+- Modify privacy practices according to your specific needs
+- Update the "Last updated" date
+
+Edit `styles.css` to customize colors and branding:
+- Change the gradient colors in the header
+- Adjust the primary color (`#667eea`) to match your brand
+
+## License
+
+All content in this repository is subject to Walkmo's terms and conditions.
