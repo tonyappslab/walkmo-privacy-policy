@@ -1,0 +1,16 @@
+# Jekyll configuration for GitHub Pages
+theme: jekyll-theme-cayman
+title: Walkmo Privacy Policy
+description: Privacy policy for the Walkmo application
+show_downloads: false
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
