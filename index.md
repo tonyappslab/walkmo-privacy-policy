@@ -5,7 +5,7 @@ title: WalkMo Privacy Policy
 
 # WalkMo Privacy Policy
 
-Effective date: May 15, 2026
+Effective date: September 24, 2026
 
 This Privacy Policy explains how tonyappslab ("we", "us", or "Service Provider") handles information in the WalkMo mobile application ("WalkMo" or the "Application"). WalkMo is an ad-supported walking simulation app for Android.
 
@@ -15,7 +15,7 @@ WalkMo is designed without a developer-operated account system or backend server
 
 - **Health Connect data:** If you turn on Health Connect sync and start a session, WalkMo writes simulated daily steps, simulated distance, session start time, session end time, and record metadata such as client record ID and version to Health Connect. WalkMo requests `WRITE_STEPS` and `WRITE_DISTANCE` for this feature. WalkMo does not read Health Connect data.
 - **Local app preferences:** WalkMo stores settings on your device, including dark theme, unit system, selected app language, whether Health Connect sync is enabled, and ad-earned credits. These values are stored locally with Android DataStore.
-- **Advertising data:** WalkMo uses Google AdMob / Google Mobile Ads SDK to show banner ads and rewarded interstitial ads. Google may process device information, Advertising ID, IP address, ad interactions, app activity related to ads, and diagnostic information according to Google's policies. WalkMo declares the Android Advertising ID permission `AD_ID` for advertising.
+- **Advertising data:** WalkMo uses Unity LevelPlay and Unity Ads to show banner and rewarded ads, and Google User Messaging Platform to manage advertising consent. These services may process device information, Advertising ID, IP address, ad interactions, app activity related to ads, and diagnostic information. An advertising SDK may also collect information about apps installed on your device for advertising purposes. WalkMo declares the Android Advertising ID permission `AD_ID` for advertising.
 - **Notifications:** WalkMo uses `POST_NOTIFICATIONS` and a foreground service only to show the status of an active walking simulation or Health Connect sync. WalkMo does not use notifications for marketing.
 
 ## Information WalkMo Does Not Collect
@@ -26,7 +26,7 @@ WalkMo does not collect precise location, camera data, microphone data, contacts
 
 - Health Connect write access is used only to write simulated steps and distance that you request through the app.
 - Local settings and credits are used to keep your preferences and app progress available on your device.
-- Advertising data is used by Google AdMob to load, measure, personalize where permitted, and secure ads.
+- Advertising data is used by Unity LevelPlay and Unity Ads to load, measure, personalize where permitted, and secure ads.
 - Notification permission is used to display active session and sync status.
 
 Health Connect data is not used for advertising, sold, or transferred by tonyappslab. WalkMo does not send Health Connect records to a tonyappslab server.
@@ -42,7 +42,7 @@ Where privacy laws require a legal basis, we rely on the following bases dependi
 
 ## Advertising Consent and Choices
 
-In regions where consent is required, including the European Economic Area, the United Kingdom, and Switzerland, WalkMo or Google AdMob may ask for your consent before using personal data for personalized ads or accessing local storage for advertising purposes. If you do not consent, WalkMo may show non-personalized ads where available.
+In regions where consent is required, including the European Economic Area, the United Kingdom, and Switzerland, WalkMo may ask for your consent before using personal data for personalized ads or accessing local storage for advertising purposes. If you do not consent, WalkMo may show non-personalized ads where available.
 
 You can manage advertising choices through the consent controls shown in the app where available, your Android advertising settings, and Google's privacy and advertising settings. Availability and wording of these controls may vary by country, device, Android version, and Google services configuration.
 
@@ -51,7 +51,7 @@ You can manage advertising choices through the consent controls shown in the app
 WalkMo uses third-party services that may process data under their own privacy policies:
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
-- [Google AdMob Privacy and Data](https://support.google.com/admob/answer/6128543)
+- [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
 - [Health Connect by Android](https://health.google/health-connect-android/)
 
 Other apps may access Health Connect records only if you grant those apps permission in Health Connect. You can review and manage Health Connect permissions in your Android device settings.
@@ -62,11 +62,11 @@ WalkMo uses Health Connect only for the user-visible walking simulation and sync
 
 ## Data Sharing
 
-tonyappslab does not sell personal or sensitive user data. We may disclose information only when required by law, to respond to valid legal process, to protect our rights or users' safety, or through service providers such as Google AdMob as described above.
+tonyappslab does not sell personal or sensitive user data. We may disclose information only when required by law, to respond to valid legal process, to protect our rights or users' safety, or through service providers such as Unity LevelPlay and Unity Ads as described above.
 
 ## International Users and Data Transfers
 
-WalkMo may be available to users in many countries. Because WalkMo uses services provided by Google, information processed by Google AdMob, Google Play services, Android, or Health Connect may be processed in countries other than the country where you live. These countries may have data protection laws that differ from those in your jurisdiction.
+WalkMo may be available to users in many countries. Because WalkMo uses services provided by Unity and Google, information processed by Unity, Google Play services, Android, or Health Connect may be processed in countries other than the country where you live. These countries may have data protection laws that differ from those in your jurisdiction.
 
 Where required, we rely on appropriate safeguards or service-provider commitments made available by our third-party providers for international data transfers. Health Connect records written by WalkMo are stored and controlled through Android and Health Connect on your device and are not sent to a tonyappslab server.
 
@@ -74,7 +74,7 @@ Where required, we rely on appropriate safeguards or service-provider commitment
 
 - Local settings and credits remain on your device until you reset progress in the app, clear the app's data, or uninstall the app. Android backup or device transfer may restore app data if enabled on your device.
 - Health Connect records can be managed or deleted in Health Connect settings. WalkMo may also delete session records it created when an active synced session is reset before its final sync is written.
-- Data processed by Google AdMob is handled according to Google's policies and your device advertising settings. You can reset or limit use of your Advertising ID in Android settings where available.
+- Data processed by Unity advertising services is handled according to Unity's policies and your device advertising settings. You can reset or limit use of your Advertising ID in Android settings where available.
 
 WalkMo does not provide account deletion because WalkMo does not create user accounts.
 
@@ -82,7 +82,7 @@ WalkMo does not provide account deletion because WalkMo does not create user acc
 
 Depending on where you live, you may have rights to request access to, correction of, deletion of, or a copy of your personal data. You may also have rights to object to or restrict certain processing, withdraw consent where processing is based on consent, opt out of certain advertising uses, or lodge a complaint with your local data protection authority.
 
-Because WalkMo does not operate user accounts or a developer-managed backend server, much of the data described in this policy is controlled on your device, in Health Connect, or by Google services. You can use the deletion and settings controls described above, or contact us if you need help understanding available options.
+Because WalkMo does not operate user accounts or a developer-managed backend server, much of the data described in this policy is controlled on your device, in Health Connect, or by Unity and Google services. You can use the deletion and settings controls described above, or contact us if you need help understanding available options.
 
 ## Regional Privacy Notices
 
@@ -92,7 +92,7 @@ If a local privacy law gives you additional rights, you may contact us at the em
 
 ## Security
 
-WalkMo relies on Android platform storage and Health Connect permission controls. Data sent to third-party services such as Google is transmitted using modern encrypted connections where applicable. No method of storage or transmission is completely secure, but we work to use platform-standard protections.
+WalkMo relies on Android platform storage and Health Connect permission controls. Data sent to third-party services such as Unity and Google is transmitted using modern encrypted connections where applicable. No method of storage or transmission is completely secure, but we work to use platform-standard protections.
 
 ## Children
 
