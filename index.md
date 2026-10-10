@@ -5,7 +5,7 @@ title: WalkMo Privacy Policy
 
 # WalkMo Privacy Policy
 
-Effective date: September 24, 2026
+Effective date: October 10, 2026
 
 This Privacy Policy explains how tonyappslab ("we", "us", or "Service Provider") handles information in the WalkMo mobile application ("WalkMo" or the "Application"). WalkMo is an ad-supported walking simulation app for Android.
 
@@ -15,6 +15,7 @@ WalkMo is designed without a developer-operated account system or backend server
 
 - **Health Connect data:** If you turn on Health Connect sync and start a session, WalkMo writes simulated daily steps, simulated distance, session start time, session end time, and record metadata such as client record ID and version to Health Connect. WalkMo requests `WRITE_STEPS` and `WRITE_DISTANCE` for this feature. WalkMo does not read Health Connect data.
 - **Local app preferences:** WalkMo stores settings on your device, including dark theme, unit system, selected app language, whether Health Connect sync is enabled, and ad-earned credits. These values are stored locally with Android DataStore.
+- **Local review-invitation records:** In versions that offer review invitations, WalkMo stores the first-use time recorded by this feature, usage dates within the most recent seven days, the number of invitations shown, the next eligible invitation time, and whether you selected the option to open Google Play to review the app. These records are processed only on your device to determine when and how often to show an invitation. They are not sent to the developer or advertising services and are not used for advertising.
 - **Advertising data:** WalkMo uses Unity LevelPlay and Unity Ads to show banner and rewarded ads, and Google User Messaging Platform to manage advertising consent. These services may process device information, Advertising ID, IP address, ad interactions, app activity related to ads, and diagnostic information. An advertising SDK may also collect information about apps installed on your device for advertising purposes. WalkMo declares the Android Advertising ID permission `AD_ID` for advertising.
 - **Notifications:** WalkMo uses `POST_NOTIFICATIONS` and a foreground service only to show the status of an active walking simulation or Health Connect sync. WalkMo does not use notifications for marketing.
 
@@ -26,10 +27,15 @@ WalkMo does not collect precise location, camera data, microphone data, contacts
 
 - Health Connect write access is used only to write simulated steps and distance that you request through the app.
 - Local settings and credits are used to keep your preferences and app progress available on your device.
+- Local review-invitation records are used only to schedule invitations and respect your choice to postpone or stop them.
 - Advertising data is used by Unity LevelPlay and Unity Ads to load, measure, personalize where permitted, and secure ads.
 - Notification permission is used to display active session and sync status.
 
 Health Connect data is not used for advertising, sold, or transferred by tonyappslab. WalkMo does not send Health Connect records to a tonyappslab server.
+
+## Optional Google Play Reviews
+
+Reviewing the app is optional and provides no reward. Selecting the review option opens Google Play and stops further invitations on that installation, whether or not you submit a review. WalkMo does not verify whether you submitted a review or access its content through this feature. Reviews submitted on Google Play are handled by Google under its own policies.
 
 ## Legal Bases for Processing
 
@@ -72,6 +78,7 @@ Where required, we rely on appropriate safeguards or service-provider commitment
 
 ## Data Retention and Deletion
 
+- **Review-invitation records:** Usage dates outside the most recent seven days are removed when the feature next processes its records. The first-use time and invitation state remain until you clear WalkMo app data or uninstall the app. These review-invitation records are excluded from Android cloud backup and device transfer. Resetting walking progress or credits does not clear the invitation state.
 - Local settings and credits remain on your device until you reset progress in the app, clear the app's data, or uninstall the app. Android backup or device transfer may restore app data if enabled on your device.
 - Health Connect records can be managed or deleted in Health Connect settings. WalkMo may also delete session records it created when an active synced session is reset before its final sync is written.
 - Data processed by Unity advertising services is handled according to Unity's policies and your device advertising settings. You can reset or limit use of your Advertising ID in Android settings where available.
